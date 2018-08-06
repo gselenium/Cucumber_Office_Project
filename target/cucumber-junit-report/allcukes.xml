@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" tests="3">
+<testcase classname="Logging into Saleforce" name="Logging in salesforce_1" time="88.287668">
+<failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;pi-utils&#9;DEBUG&#9;Successfully read XPI database&#13;&#10;1533571025425&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025426&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Starting timer&#13;&#10;1533571025833&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025838&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025843&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025846&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025851&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025861&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025868&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025870&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025875&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025878&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025882&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025884&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025887&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025891&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025895&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025897&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025901&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025903&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025905&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025907&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025917&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025919&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025923&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025925&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025928&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025929&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025955&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025957&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025960&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025962&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025970&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025973&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025978&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025982&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025985&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025987&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025989&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025991&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026002&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026010&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026014&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026018&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026020&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026025&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026031&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026033&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026035&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026048&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026213&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026318&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026625&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571030658&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Starting write&#13;&#10;1533571030814&#9;addons.productaddons&#9;INFO&#9;sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.1/20171002220106/WINNT_x86-msvc-x64/en-US/release/Windows_NT%206.1.1.0%20(x64)/default/default/update.xml&#13;&#10;1533571030834&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Write succeeded&#13;&#10;1533571032171&#9;addons.productaddons&#9;INFO&#9;Completed downloading document&#13;&#10;1533571034444&#9;addons.productaddons&#9;INFO&#9;downloadXHR File download. status=200&#13;&#10;1533571034452&#9;addons.productaddons&#9;INFO&#9;Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon&#13;&#10;1533571044746&#9;addons.productaddons&#9;INFO&#9;downloadXHR File download. status=200&#13;&#10;1533571044754&#9;addons.productaddons&#9;INFO&#9;Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon-7b711c&#13;&#10;&#10;Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'&#10;System info: host: 'Govardhan-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: FirefoxDriver&#13;&#10;&#9;at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)&#13;&#10;&#9;at com.cucumber.salesforce.util.WebConnector.OpenBrowser(WebConnector.java:35)&#13;&#10;&#9;at com.cucumber.salesforce.login.LoginTest.I_go_to_on(LoginTest.java:12)&#13;&#10;&#9;at ✽.Given I go to &quot;Login_URL&quot; on &quot;Mozilla&quot;(main\resources\com\cucumber\salesforce\login\login.feature:9)&#13;&#10;Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:&#10;pi-utils&#9;DEBUG&#9;Successfully read XPI database&#13;&#10;1533571025425&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025426&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Starting timer&#13;&#10;1533571025833&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025838&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025843&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025846&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025851&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025861&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025868&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025870&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025875&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025878&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025882&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025884&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025887&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025891&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025895&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025897&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025901&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025903&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025905&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025907&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025917&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025919&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025923&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025925&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025928&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025929&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025955&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025957&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025960&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025962&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025970&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025973&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025978&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025982&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025985&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025987&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025989&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571025991&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026002&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026010&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026014&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026018&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026020&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026025&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026031&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026033&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026035&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026048&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026213&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026318&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571026625&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Save changes&#13;&#10;1533571030658&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Starting write&#13;&#10;1533571030814&#9;addons.productaddons&#9;INFO&#9;sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.1/20171002220106/WINNT_x86-msvc-x64/en-US/release/Windows_NT%206.1.1.0%20(x64)/default/default/update.xml&#13;&#10;1533571030834&#9;DeferredSave.webext.sc.lz4&#9;DEBUG&#9;Write succeeded&#13;&#10;1533571032171&#9;addons.productaddons&#9;INFO&#9;Completed downloading document&#13;&#10;1533571034444&#9;addons.productaddons&#9;INFO&#9;downloadXHR File download. status=200&#13;&#10;1533571034452&#9;addons.productaddons&#9;INFO&#9;Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon&#13;&#10;1533571044746&#9;addons.productaddons&#9;INFO&#9;downloadXHR File download. status=200&#13;&#10;1533571044754&#9;addons.productaddons&#9;INFO&#9;Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon-7b711c&#13;&#10;&#13;&#10;&#9;at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)&#13;&#10;&#9;at com.cucumber.salesforce.util.WebConnector.OpenBrowser(WebConnector.java:35)&#13;&#10;&#9;at com.cucumber.salesforce.login.LoginTest.I_go_to_on(LoginTest.java:12)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:483)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:44)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:12)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:40)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:268)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:45)&#13;&#10;&#9;at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:105)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:93)&#13;&#10;&#9;at cucumber.api.cli.Main.run(Main.java:20)&#13;&#10;&#9;at cucumber.api.cli.Main.main(Main.java:12)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:483)&#13;&#10;&#9;at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:297)&#13;&#10;&#9;at java.lang.Thread.run(Thread.java:745)&#13;&#10;"><![CDATA[Given I go to "Login_URL" on "Mozilla"...................................................failed
+And I enter "uname" as "govardhan.selenium@gmail.com"............................................skipped
+And I enter "pass" as "test@1234"......................................................skipped
+And I click on "login_button"........................................................skipped
+Then Login should be "Success".......................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+pi-utils	DEBUG	Successfully read XPI database
+1533571025425	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025426	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1533571025833	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025838	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025843	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025846	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025851	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025861	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025868	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025870	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025878	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025882	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025884	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025887	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025891	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025895	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025897	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025901	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025905	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025907	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025917	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025919	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025923	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025925	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025928	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025929	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025955	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025957	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025960	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025962	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025970	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025973	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025978	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025982	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025985	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025987	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025989	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025991	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026002	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026010	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026014	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026018	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026020	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026025	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026031	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026033	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026035	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026048	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026213	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026318	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571030658	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1533571030814	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.1/20171002220106/WINNT_x86-msvc-x64/en-US/release/Windows_NT%206.1.1.0%20(x64)/default/default/update.xml
+1533571030834	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1533571032171	addons.productaddons	INFO	Completed downloading document
+1533571034444	addons.productaddons	INFO	downloadXHR File download. status=200
+1533571034452	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon
+1533571044746	addons.productaddons	INFO	downloadXHR File download. status=200
+1533571044754	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon-7b711c
+
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'Govardhan-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.cucumber.salesforce.util.WebConnector.OpenBrowser(WebConnector.java:35)
+	at com.cucumber.salesforce.login.LoginTest.I_go_to_on(LoginTest.java:12)
+	at ✽.Given I go to "Login_URL" on "Mozilla"(main\resources\com\cucumber\salesforce\login\login.feature:9)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+pi-utils	DEBUG	Successfully read XPI database
+1533571025425	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025426	DeferredSave.webext.sc.lz4	DEBUG	Starting timer
+1533571025833	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025838	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025843	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025846	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025851	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025861	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025868	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025870	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025875	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025878	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025882	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025884	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025887	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025891	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025895	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025897	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025901	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025903	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025905	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025907	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025917	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025919	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025923	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025925	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025928	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025929	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025955	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025957	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025960	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025962	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025970	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025973	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025978	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025982	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025985	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025987	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025989	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571025991	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026002	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026010	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026014	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026018	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026020	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026025	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026031	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026033	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026035	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026048	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026213	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026318	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571026625	DeferredSave.webext.sc.lz4	DEBUG	Save changes
+1533571030658	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1533571030814	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/56.0.1/20171002220106/WINNT_x86-msvc-x64/en-US/release/Windows_NT%206.1.1.0%20(x64)/default/default/update.xml
+1533571030834	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1533571032171	addons.productaddons	INFO	Completed downloading document
+1533571034444	addons.productaddons	INFO	downloadXHR File download. status=200
+1533571034452	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon
+1533571044746	addons.productaddons	INFO	downloadXHR File download. status=200
+1533571044754	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\GOVARD~1\AppData\Local\Temp\tmpaddon-7b711c
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.cucumber.salesforce.util.WebConnector.OpenBrowser(WebConnector.java:35)
+	at com.cucumber.salesforce.login.LoginTest.I_go_to_on(LoginTest.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at cucumber.runtime.Utils$1.call(Utils.java:44)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
+	at cucumber.runtime.Utils.invoke(Utils.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:268)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:45)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:40)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:45)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at cucumber.runtime.Runtime.run(Runtime.java:105)
+	at cucumber.runtime.Runtime.run(Runtime.java:93)
+	at cucumber.api.cli.Main.run(Main.java:20)
+	at cucumber.api.cli.Main.main(Main.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:297)
+	at java.lang.Thread.run(Thread.java:745)
+]]></failure>
+</testcase>
+<testcase classname="To check the top menu options in the sales force application." name="Testing top menu_2" time="0.041278">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.cucumber.salesforce.util.WebConnector.isElementPresent(WebConnector.java:63)&#13;&#10;&#9;at com.cucumber.salesforce.login.MenuTest.All_tabs_should_be_present(MenuTest.java:28)&#13;&#10;&#9;at ✽.Then All tabs should be present(main\resources\com\cucumber\salesforce\login\menu.feature:10)&#13;&#10;"><![CDATA[Given I logged in "Mozilla".........................................................passed
+Then All tabs should be present.......................................................failed
+When I click on "hometab"..........................................................skipped
+Then "VerifyObject" element should be present................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.cucumber.salesforce.util.WebConnector.isElementPresent(WebConnector.java:63)
+	at com.cucumber.salesforce.login.MenuTest.All_tabs_should_be_present(MenuTest.java:28)
+	at ✽.Then All tabs should be present(main\resources\com\cucumber\salesforce\login\menu.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="To check the top menu options in the sales force application." name="Testing top menu_1" time="0.003093">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.cucumber.salesforce.util.WebConnector.isElementPresent(WebConnector.java:63)&#13;&#10;&#9;at com.cucumber.salesforce.login.MenuTest.All_tabs_should_be_present(MenuTest.java:28)&#13;&#10;&#9;at ✽.Then All tabs should be present(main\resources\com\cucumber\salesforce\login\menu.feature:10)&#13;&#10;"><![CDATA[Given I logged in "Mozilla".........................................................passed
+Then All tabs should be present.......................................................failed
+When I click on "leadtab"..........................................................skipped
+Then "VerifyObject" element should be present................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.cucumber.salesforce.util.WebConnector.isElementPresent(WebConnector.java:63)
+	at com.cucumber.salesforce.login.MenuTest.All_tabs_should_be_present(MenuTest.java:28)
+	at ✽.Then All tabs should be present(main\resources\com\cucumber\salesforce\login\menu.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
