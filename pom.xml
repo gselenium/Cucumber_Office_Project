@@ -70,7 +70,7 @@
 					<argument>--format</argument>
 					<argument>json:target/Cucumber.json</argument>
 					<argument>--tags</argument>
-					<argument>@login,@menu</argument>
+					<argument>@login</argument>
 					<argument>--glue</argument>
 					<argument>com/</argument>
 					<argument>src/</argument>
