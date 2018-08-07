@@ -13,7 +13,7 @@ public class LoginTest {
 		cucumber.navigate(Login_URL);
 	}
 	
-	@And("^I enter \"([^\"]*)\" as \"([^\"]*)\"$")
+	/*@And("^I enter \"([^\"]*)\" as \"([^\"]*)\"$")
 	public void I_enter(String object, String text){
 		System.out.println("I enter "+object+" as "+text);
 		cucumber.type(object, text);
@@ -35,5 +35,5 @@ public class LoginTest {
 		else
 			actualResult="Failure";
 		//Assert.assertEquals(expectedResult,actualResult);
-	}
+	}*/
 }

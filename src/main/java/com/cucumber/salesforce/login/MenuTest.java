@@ -20,20 +20,20 @@ public class MenuTest {
 		//cucumber.OpenBrowser(browser);
 		//cucumber.navigate("Login_URL");
 	}
-	@Then("^All tabs should be present$")
+	/*@Then("^All tabs should be present$")
 	public void All_tabs_should_be_present(DataTable table){
 		System.out.println("All tabs should be present");
 		List<String> names=table.asList(String.class);
 		for(int i=0;i<names.size();i++){
-			Assert.assertTrue("Element is not presenet"+names.get(i), cucumber.isElementPresent(names.get(i)));
+			//Assert.assertTrue("Element is not presenet"+names.get(i), cucumber.isElementPresent(names.get(i)));
 		}
 	}
 	
-	/*@When("^I click on \"([^\"]*)\"$")
+	@When("^I click on \"([^\"]*)\"$")
 	public void I_Click_on(String object){
 		System.out.println("I click on "+object);
 		cucumber.click(object);
-	}*/
+	}
 	
 	@Then("^\"([^\"]*)\" element should be present$")
 	public void element_should_be_present(String object){
@@ -42,5 +42,5 @@ public class MenuTest {
 		}catch(Throwable t){
 			System.out.println("Error in Execution");
 		}
-	}
+	}*/
 }
