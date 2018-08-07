@@ -68,9 +68,7 @@
 					<argument>--format</argument>
 					<argument>html:target/cucumber-html-report</argument>
 					<argument>--format</argument>
-					<argument>json:target/Cucumber.json</argument>
-					<argument>--tags</argument>
-					<argument>@login</argument>
+					<argument>json:target/Cucumber.json</argument>					
 					<argument>--glue</argument>
 					<argument>com/</argument>
 					<argument>src/</argument>
