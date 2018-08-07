@@ -14,7 +14,7 @@ Then Login should be "<ExpectedResult>"
 
  Examples:
 | Browser	| UserName							| Password		| ExpectedResult|
-|Mozilla	|govardhan.selenium@gmail.com		|test@1234		|Success		|
+|chrome	|govardhan.selenium@gmail.com		|test@1234		|Success		|
 
 
 

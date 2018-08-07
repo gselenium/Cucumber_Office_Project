@@ -1,0 +1,5 @@
+com\cucumber\salesforce\login\LeadTest.class
+com\cucumber\salesforce\login\MenuTest.class
+com\cucumber\salesforce\login\LoginTest.class
+com\cucumber\salesforce\util\WebConnector.class
+com\cucumber\salesforce\login\TestRunner.class

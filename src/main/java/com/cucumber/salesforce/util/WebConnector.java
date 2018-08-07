@@ -32,17 +32,19 @@ public class WebConnector {
 	
 	public void OpenBrowser(String browser_type){
 		if(browser_type.equals("Mozilla")){
+			System.setProperty("webdriver.gecko.driver", "resources/geckodriver.exe");
 			driver=new FirefoxDriver();
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			//driver.manage().window().maximize();
+			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}else if(browser_type.equals("chrome")){
+			System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}else{
 			driver=new InternetExplorerDriver();
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			/*driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);*/
 		}
 	}
 	public void navigate(String url){
