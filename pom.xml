@@ -68,6 +68,8 @@
 					<argument>pretty</argument>
 					<argument>--format</argument>
 					<argument>html:target/cucumber-html-report</argument>
+					<argument>--format</argument>
+					<argument>json:target/cucumber-reports/Cucumber.json</argument>
 					<argument>--tags</argument>
 					<argument>@login,@menu</argument>
 					<argument>--glue</argument>
@@ -83,6 +85,7 @@
 		    </dependency>
 		 </dependencies>
 </plugin>
+
 </plugins>
 
     </build>

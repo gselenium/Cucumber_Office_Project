@@ -49,6 +49,12 @@ public class WebConnector {
 	}
 	public void navigate(String url){
 		driver.get(OR.getProperty("Login_URL"));
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	public void type(String object,String text){
 		driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(text);

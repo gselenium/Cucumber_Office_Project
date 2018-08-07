@@ -13,8 +13,8 @@ And I click on "login_button"
 Then Login should be "<ExpectedResult>"
 
  Examples:
-| Browser	| UserName							| Password		| ExpectedResult|
-|chrome	|govardhan.selenium@gmail.com		|test@1234		|Success		|
+| Browser	| UserName					 | Password	| ExpectedResult|
+|chrome	    |govardhan.selenium@gmail.com|test@1234	|Success		|
 
 
 
