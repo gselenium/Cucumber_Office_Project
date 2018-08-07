@@ -58,8 +58,7 @@
 			  <executableDependency>
 					 <groupId>info.cukes</groupId>
 					<artifactId>cucumber-core</artifactId>
-			 </executableDependency>
-       
+			 </executableDependency>       
 				<mainClass>cucumber.api.cli.Main</mainClass>
 				<arguments>
 					<argument>--format</argument>
@@ -69,7 +68,7 @@
 					<argument>--format</argument>
 					<argument>html:target/cucumber-html-report</argument>
 					<argument>--format</argument>
-					<argument>json:target/cucumber-reports/Cucumber.json</argument>
+					<argument>json:target/Cucumber.json</argument>
 					<argument>--tags</argument>
 					<argument>@login,@menu</argument>
 					<argument>--glue</argument>
